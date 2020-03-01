@@ -46,11 +46,11 @@ public class Controller implements Initializable {
 
 
     final String hostname = "derek-db.ckexfznrvq9e.us-east-1.rds.amazonaws.com";
-    final String dbName = "derek-db";
+    final String dbName = "derek_db";
     final String port = "3306";
     final String username = "derek";
-    final String password = "Dwelch96";
-    final String AWS_URL = "jdbc:mysql://" + hostname + ":" + port + "/" + dbName + "?user" + username + "&password=" + password;
+    final String password = "D.welch96";
+    final String AWS_URL = "jdbc:mysql://" + hostname + ":" + port + "/" + dbName + "?user=" + username + "&password=" + password;
 
 
 
