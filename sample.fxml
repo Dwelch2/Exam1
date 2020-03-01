@@ -1,0 +1,26 @@
+
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ListView?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <VBox>
+        <VBox>
+            <Label> Min </Label>
+            <TextField prefWidth="150" fx:id="MIN"></TextField>
+            <Label> Max </Label>
+            <TextField prefWidth="150" fx:id="MAX"></TextField>
+        </VBox>
+        <HBox>
+            <ListView fx:id="listView"></ListView>
+    <Button fx:id="runButton" text="RUN" prefWidth="75" prefHeight="50"  />
+            <Button fx:id="loadButton" text="LOAD NUMBER" prefWidth="75" prefHeight="50"  />
+    <Label fx:id="LabelD" layoutX="50" layoutY="50" text="DISPLAY NUMBER" minHeight="15" minWidth="50" />
+        </HBox>
+    </VBox>
+</GridPane>
